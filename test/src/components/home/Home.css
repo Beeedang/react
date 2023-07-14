@@ -276,7 +276,7 @@
   }
   .nation-input {
     width: 200px;
-    height: 32px;
+    height: 25px;
     font-size: 16px;
     padding: 8px;
     border-radius: 8px;
@@ -285,7 +285,7 @@
   }
   .team-input {
     width: 186px;
-    height: 32px;
+    height: 25px;
     font-size: 16px;
     padding: 8px;
     border-radius: 8px;

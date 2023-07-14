@@ -174,7 +174,7 @@ const SearchBar = ({ data, setSearchResult }) => {
   <div className="option-position">
     <span className="option-label">포지션:</span>
     <select value={selectedPosition} onChange={(e) => setSelectedPosition(e.target.value)}>
-      <option value="">Select Position</option>
+      <option value="">포지션 선택</option>
       {uniquePositions.map((positionVal) => (
         <option key={positionVal} value={positionVal}>{positionVal}</option>
       ))}
@@ -187,7 +187,7 @@ const SearchBar = ({ data, setSearchResult }) => {
               type="text"
               value={selectedNation}
               onChange={handleNationChange}
-              placeholder="Enter Nation"
+              placeholder="국적 입력"
               className="nation-input"
             />
             {showAutocomplete && selectedNation !== "" && (
@@ -213,7 +213,7 @@ const SearchBar = ({ data, setSearchResult }) => {
               type="text"
               value={selectedTeamcolor}
               onChange={handleTeamcolorChange}
-              placeholder="Enter Teamcolor"
+              placeholder="팀컬러 입력"
               className="team-input"
             />
             {showAutocomplete && selectedTeamcolor !== "" && (

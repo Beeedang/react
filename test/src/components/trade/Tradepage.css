@@ -86,13 +86,11 @@
     border-left-color: #E9D36C !important;
     border-right-color: #CDA000 !important;
     }
-
 .trade-box{
     top: 150px;
     background: #EDEFF8;
     box-shadow: inset 0 8px 22px rgba(0,0,0,.1);
 }
-
 .trade-date{
     box-sizing: border-box;
     border-width: 0;
@@ -100,13 +98,12 @@
 }
 /* 선택되지 않은 버튼 스타일 */
 .trade-type button {
-    background-color: #f0f0f0; /* 연한 회색 배경색 */
+    background-color: #F0F0F0; /* 연한 회색 배경색 */
   }
-  
   /* 선택된 버튼 스타일 */
   .trade-type button.selected {
     background-color: #555555; /* 진한 회색 배경색 */
-    color: #ffffff; /* 흰색 텍스트 색상 */
+    color: #FFFFFF; /* 흰색 텍스트 색상 */
   }
 .header {
     font-size: 25px;
@@ -147,10 +144,35 @@
 .trade-result {
     flex: 1;
     overflow-y: auto;
-    width: 500px;
+    row-gap: 0.25rem;
 }
 .trade-box {
     border-radius: 10px;
-    width: 100px;
-    background: #8ee9b2;
+    background: #8EE9B2;
+    padding: 0.5rem 1rem;
+}
+.trade-name1{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.trade-name2{
+    flex-direction: row;
+    display: flex;
+}
+.trade-price {
+    margin-right: 30px;
+}
+.trade-marketprice {
+    margin-right: 50px;
+}
+.trade-playerclass {
+    height: 19px;
+    margin-right: 5px;
+}
+.trade-playername {
+    height: 25px;
+    margin-right: 5px;
 }
